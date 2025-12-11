@@ -1,19 +1,21 @@
 
-import './App.css'
-
+// import './App.css'
+import { BrowserRouter,Routes,Route } from 'react-router-dom'
+import Home from './Pages/Home/Home'
+import About from './Pages/About/About'
+import Contact from './Pages/Contact/Contact'
 function App() {
-  const Mycss = {
-    color : "blue"
-  }
+  
+
 
   return (
-    <div>
-      <h1 style={{color:'grey'}}>Ishann Ojhaa</h1>
-      <h2>Siuuuuu</h2>
-      <h2 style = {Mycss}>Chemical Formula of Water: H<sub>2</sub>O</h2>
-      <h2>11 + 11: {11 +11}</h2>
-
-    </div>
+    <BrowserRouter>
+     <Routes>
+       <Route path='/' element = {<Home/>}/>
+       <Route path='/about' element = {<About/>}/>
+       <Route path='/contact' element = {<Contact/>}/>
+     </Routes>
+    </BrowserRouter>
   )
 }
 
