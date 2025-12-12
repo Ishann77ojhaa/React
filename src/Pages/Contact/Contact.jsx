@@ -1,20 +1,16 @@
 import React from 'react'
 import './Contact.css'
+import Navbar from '../../Components/Navbar/navbar'
+import Button from '../../Components/Navbar/Button/Button'
+
 
 const Contact = () => {
   return (
     <div> 
-<header>
-<h1> Contact Ishan's Academy </h1>
-<nav>
-<ul>
-<li><a href="/">Home</a></li>
-<li><a href="/about">About</a></li>
-<li><a href="/contact">Contact</a></li>
-</ul>
-</nav>
-</header>
-
+   <Navbar/>
+<Button title="Submit"/>
+<br />
+<Button title="Siuuu" color="Yellow"/>
 <section className="contact-container">
 <h1>Contact Us</h1>
 <p className="tag">We're here to help — reach out anytime.</p>

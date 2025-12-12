@@ -1,20 +1,15 @@
 import React from 'react'
 import './About.css'
+import Navbar from '../../Components/Navbar/navbar'
+import Button from '../../Components/Navbar/Button/Button'
 
 const About = () => {
   return (
     <div> 
-        <header>
-<h1>About Ishan's Academy</h1>
-<nav>
-<ul>
-<li><a href="/">Home</a></li>
-<li><a href="/about">About</a></li>
-<li><a href="/contact">Contact</a></li>
-</ul>
-</nav>
-</header>
-
+       <Navbar/>
+<Button title="Login"/>
+<br />
+<Button title="Siuuu" color="Blue"/>
 <section>
 <h2>Who We Are</h2>
 <p>
@@ -28,8 +23,8 @@ future-ready.
 <section>
 <h2>Our Mission</h2>
 <p>
-To help students and aspiring developers gain real‑world tech knowledge without
-confusion or unnecessary complexity. We believe learning should be hands‑on,
+To help students and aspiring developers gain real-world tech knowledge without
+confusion or unnecessary complexity. We believe learning should be hands-on,
 enjoyable, and directly applicable to real projects.
 </p>
 </section>

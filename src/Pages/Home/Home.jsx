@@ -1,21 +1,17 @@
 import React from 'react'
 import './Home.css'
+import Navbar from '../../Components/Navbar/navbar'
+import Button from '../../Components/Navbar/Button/Button'
+
 
 const Home = () => {
   return (
     <div> 
-<header>
-<h1>Ishan's Academy</h1>
-<nav>
-<ul>
-<li><a href="/">Home</a></li>
-<li><a href="/about">About</a></li>
-<li><a href="/contact">Contact</a></li>
-</ul>
-</nav>
-</header>
-
-
+     
+   <Navbar/>
+<Button title = "Sign Up"/>
+<br />
+<Button title="Siuuu" color="Orange"/>
 <section id="home">
 <h2>Welcome to Ishan's Academy</h2>
 <p>Your pathway to digital learning and success!</p>
