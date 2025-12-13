@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div> 
        <Navbar/>
-<Button title="Login"/>
+<Button title="Loginnnnnnnnnnnn"/>
 <br />
 <Button title="Siuuu" color="Blue"/>
 <section>
